@@ -1,0 +1,81 @@
+.headerWrapper {
+    z-index: 101;
+    position: relative;
+    overflow: hidden;
+}
+
+.topNoticeBar {
+    background-color: #1f2894;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.container {
+    z-index: 2;
+    background-color: var(--extra--transparent);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.spaceBetweenBlock {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.noticeBarLeft {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.horizontalBlock7pxGap {
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    align-items: center;
+    display: flex;
+}
+
+._26pxSvg {
+    max-width: 26px;
+}
+
+._14pxTextWhite {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.noticeBarText {
+    border-left: 1px solid #8f9eb2;;
+    margin-left: 45px;
+    padding-left: 28px;
+}
+
+._14pxTextSecondaryParagraph {
+    color: #e7eaee;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.boldUnderlineLink {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
