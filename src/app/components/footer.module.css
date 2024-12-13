@@ -1,0 +1,121 @@
+.footer {
+    margin-top: 80px;
+    position: relative;
+}
+
+.container {
+    z-index: 2;
+    background-color: #0000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.newsletterBlock {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    display: flex;
+}
+
+._10pxGap {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.wLayoutVflex {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+._30pxTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #0c2d57;
+}
+
+.paragraph300 {
+    color: #5c728e;
+}
+
+.subscriptionFormBlock {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 605px;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.wForm {
+    margin: 0 0 15px;
+}
+
+.subscriptionForm {
+grid-column-gap: 12px;
+grid-row-gap: 12px;
+justify-content: flex-end;
+width: 100%;
+display: flex;
+}
+
+.subscriptionMailInput{
+    background-color: #e7eaee;
+    border: 1px #000;
+    border-radius: 4px;
+    width: 100%;
+    height: 66px;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 26px;
+}
+
+.wInput {
+    color: #333;
+    /* vertical-align: middle; */
+    /* background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px; */
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+}
+
+.subscriptionButton {
+    background-color: #dd3842;
+    color: #fff;
+    border-radius: 4px;
+    padding: 20px 26px;
+    font-weight: 600;
+    transition: background-color .4s;
+}
+
+.wButton:hover {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #3898ec;
+    border: 0;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -1,0 +1,139 @@
+.mainFooter {
+    border-bottom: 1px solid #e7eaee;
+}
+
+.container {
+    z-index: 2;
+    background-color: #0000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.footerWrapper {
+    grid-column-gap: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+}
+
+.footerBlock {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 120px;
+    display: flex;
+}
+
+.firstBlock {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.wNavBrand {
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+
+.footerParagraph {
+    color: #5c728e;
+}
+
+.socialShareIconContainer {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    flex-direction: row;
+    margin-top: 6px;
+    display: flex;
+}
+
+.footerSocialIcon {
+    border: 1px solid #e7eaee;
+    color: #8f9eb2;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-family: Icofont, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    transition: color .4s;
+    display: flex;
+}
+
+.footerTitle {
+    color: #0c2d57;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.listBlock {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.footerLink {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    color:#5c728e;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+    transition: padding .6s cubic-bezier(.215, .61, .355, 1), color .4s ease-out;
+    display: flex;
+}
+
+.footerLinkIcon {
+    font-family: Material Icons Outlined, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.wLayoutVflex {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+._10pxGap {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.horizontalBlock10pxGap {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+._16pxSvg {
+    max-width: 16px;
+}
+
+.paragraph300 {
+    color: #5c728e;
+}
