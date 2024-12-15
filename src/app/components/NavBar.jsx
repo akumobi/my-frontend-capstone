@@ -1,12 +1,18 @@
-import React from 'react'
+"use client"
+
+import React, { useContext } from 'react'
 import Link from 'next/link'
 import { TbTruckDelivery } from "react-icons/tb";
 import style1 from './topnoticebar.module.css'
 import style2 from './topnavbar.module.css'
 import style3 from "./mainnav.module.css"
 import Image from 'next/image';
+import SearchBar from '../shop/SearchBar';
+import { SidebarContext } from '../providers';
 
 export default function NavBar() {
+    const {cart} = useContext(SidebarContext)
+    const {cartOpen} = useContext(SidebarContext)
   return (
     <div>
         <div className={style1.headerWrapper}>
@@ -35,8 +41,7 @@ export default function NavBar() {
                             <Image className={style2.siteLogo} src={'/images/Logo.webp'} alt='Pack Hub Logo' width={75} height={75}/>
                         </Link>
                         <form action="/search" className={`${style2.searchBarWrapper} ${style2.wForm}`}>
-                            <input type="search" name="query" id="search-shop" required className={style2.searchBar} {...style2.wInput}/>
-                            <input type="submit" name="search" value="search" id="submit-search-shop" className={style2.searchButton} {...style2.wButton}/>
+                            <SearchBar />
                         </form>
                         <div className={`${style2.wLayoutHflex} ${style2.ecommerceIcons}`}>
                             <div className={style2.userIconBlock}>
@@ -49,11 +54,11 @@ export default function NavBar() {
                                 </div>
                             </div>
                             <div className={style2.wCommerceCartWrapper}>
-                                <Link className={`${style2.wCommerceCarOpenLink} ${style2.cartButton} ${style2.wInlineBlock}`} href={'/'}>
+                                <Link className={`${style2.wCommerceCarOpenLink} ${style2.cartButton} ${style2.wInlineBlock}`} href={`${cartOpen}`}>
                                     <div className={style2.relativeBlock}>
                                         <Image className={style2._24pxSvg} src={'https://cdn.prod.website-files.com/65f0219f664a58453bb579a5/65f127a6a12d5be1d7e91306_bag%20icon.svg'} alt='Cart Icon' width={150} height={150}/>
                                         <div className={`${style2.cartQuantity}`}>
-                                            0
+                                            {cart}
                                         </div>
                                     </div>
                                     <div className={style2.wLayoutVflex}>

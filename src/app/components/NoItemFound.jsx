@@ -9,11 +9,11 @@ export default function Error({ error, reset }) {
 
     return (
         <div style={styles.container}>
-            <h1 style={styles.heading}>Something Went Wrong!</h1>
+            <h1 style={styles.heading}>The item you are looking for is not available</h1>
             <p style={styles.text}>
                 Error Code: <strong>{error.code || "Unknown"}</strong>
             </p>
-            <p style={styles.text}>We’re working to fix the issue. Try again or contact support.</p>
+            <p style={styles.text}>Would you like us to add the item to our catalogue?. Let us know by contacting our support team.</p>
             <div style={styles.actions}>
                 <button style={styles.retryButton} onClick={reset}>
                     Retry

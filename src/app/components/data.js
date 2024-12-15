@@ -5,7 +5,7 @@ export const products = [
       category: "Paper Bags",
       price: 230,
       description: "The Bag is sturdy, strong, and used as a carrier, food/product can comfortably be taken out or delivered.",
-      imageUrl: "/1001.webp",
+      imageUrl: "/images/1001.webp",
       rating: 4.7,
       stock: 10000,
       colour: "Kraft Brown",
@@ -16,7 +16,7 @@ export const products = [
       category: "Paper Bags",
       price: 400,
       description: "The Bag is sturdy, strong, made from Kraft paper 100gsm with twisted rope handle.",
-      imageUrl: "/1002.webp",
+      imageUrl: "/images/1002.webp",
       rating: 4.9,
       stock: 25000,
       colour: "Kraft Brown",
@@ -27,7 +27,7 @@ export const products = [
       category: "Paper Bags",
       price: 100,
       description: "The bag is leak resistant and can comfortably be eaten directly from the bag.",
-      imageUrl: "/1003.webp",
+      imageUrl: "/images/1003.webp",
       rating: 4.8,
       stock: 15000,
       colour: "Kraft Brown",
@@ -39,7 +39,7 @@ export const products = [
         category: "Paper Bags",
         price: 180,
         description: "The Bag is sturdy, strong, made from Kraft paper 100gsm and used as a carrier, food/product can comfortably be taken out or delivered.",
-        imageUrl: "/1004.webp",
+        imageUrl: "/images/1004.webp",
         rating: 4.9,
         stock: 8000,
         colour: "Kraft Brown"
@@ -50,7 +50,7 @@ export const products = [
         category: "Grease Proof Papers",
         price: 100,
         description: "Food Wrapping paper made from greaseproof paper.",
-        imageUrl: "/2001.webp",
+        imageUrl: "/images/2001.webp",
         rating: 4.8,
         stock: 9000,
         colour: "Black and White"
@@ -61,7 +61,7 @@ export const products = [
         category: "Grease Proof Papers",
         price: 100,
         description: "Food Wrapping paper suitable for contact grill / grill presses, take away deli panini, baguettes and snacks.",
-        imageUrl: "/2002.webp",
+        imageUrl: "/images/2002.webp",
         rating: 4.4,
         stock: 11000,
         colour: "Green"
@@ -72,7 +72,7 @@ export const products = [
         category: "Grease Proof Papers",
         price: 100,
         description: "The paper is a disposable non-stick paper suitable for contact grill / grill presses, take away deli panini, baguettes and snacks",
-        imageUrl: "/2003.webp",
+        imageUrl: "/images/2003.webp",
         rating: 4.7,
         stock: 5000,
         colour: "Red and  White"
@@ -83,7 +83,7 @@ export const products = [
         category: "Grease Proof Papers",
         price: 220,
         description: "Food Wrapping paper made from greaseproof paper.",
-        imageUrl: "/2003.webp",
+        imageUrl: "/images/2004.webp",
         rating: 4.5,
         stock: 6000,
         colour: "White"
@@ -94,7 +94,7 @@ export const products = [
         category: "Lunch Packs",
         price: 230,
         description: "The pack can be easily torn (tear off), sturdy, strong, leak resistant and used as a bowl, food can comfortably be eaten directly from the box.",
-        imageUrl: "/3001.webp",
+        imageUrl: "/images/3001.webp",
         rating: 4.4,
         stock: 4500,
         colour: "White"
@@ -105,7 +105,7 @@ export const products = [
         category: "Lunch Packs",
         price: 165,
         description: "The pack is made from FBB paper 300gsm, with PE lining and can be easily torn (tear off).",
-        imageUrl: "/3002.webp",
+        imageUrl: "/images/3002.webp",
         rating: 4.9,
         stock: 3000,
         colour: "Black"
@@ -116,7 +116,7 @@ export const products = [
         category: "Lunch Packs",
         price: 230,
         description: "The pack is made from FBB paper 300gsm, with PE lining and can hold any type of foods, whether it is hot, cold, wet or dry.",
-        imageUrl: "/3003.webp",
+        imageUrl: "/images/3003.webp",
         rating: 4.8,
         stock: 5000,
         colour: "Black"
@@ -127,7 +127,7 @@ export const products = [
         category: "Lunch Packs",
         price: 275,
         description: "The pack can be easily torn (tear off), sturdy, strong, leak resistant and used as a bowl, food can comfortably be eaten directly from the box.",
-        imageUrl: "/3004.webp",
+        imageUrl: "/images/3004.webp",
         rating: 4.7,
         stock: 6000,
         colour: "Kraft Brown"
@@ -138,7 +138,7 @@ export const products = [
         category: "Snack Trays & Packs",
         price: 120,
         description: "Boat Tray can hold any type of foods/product, whether it is hot, cold, wet or dry.",
-        imageUrl: "/4001.webp",
+        imageUrl: "/images/4001.webp",
         rating: 4.4,
         stock: 3500,
         colour: "White"
@@ -149,7 +149,7 @@ export const products = [
         category: "Snack Trays & Packs",
         price: 135,
         description: "The pack is Suitable for Small Chops, fish and chicken wings with French fries, and can comfortably be eaten directly from the box.",
-        imageUrl: "/4002.webp",
+        imageUrl: "/images/4002.webp",
         rating: 4.6,
         stock: 8000,
         colour: "White"
@@ -160,7 +160,7 @@ export const products = [
         category: "Snack Trays & Packs",
         price: 135,
         description: "The pack is suitable for pop corn and other finger foods.",
-        imageUrl: "/4003.webp",
+        imageUrl: "/images/4003.webp",
         rating: 4.5,
         stock: 7500,
         colour: "White"
@@ -171,7 +171,7 @@ export const products = [
         category: "Snack Trays & Packs",
         price: 85,
         description: "The pack is suitable for French fries and finger foods.",
-        imageUrl: "/4004.webp",
+        imageUrl: "/images/4004.webp",
         rating: 4.8,
         stock: 2500,
         colour: "White"
@@ -182,7 +182,7 @@ export const products = [
         category: "Pizza Boxes",
         price: 400,
         description: "This packaging is aimed at take-away outlets, petrol stations, cafeterias, markets.  It is also ideal for catering and the event industry.",
-        imageUrl: "/5001.webp",
+        imageUrl: "/images/5001.webp",
         rating: 4.3,
         stock: 1000,
         colour: "Kraft Brown"
@@ -193,7 +193,7 @@ export const products = [
         category: "Pizza Boxes",
         price: 400,
         description: "This packaging is ideal for catering and the event industry.",
-        imageUrl: "/5002.webp",
+        imageUrl: "/images/5002.webp",
         rating: 4.3,
         stock: 1500,
         colour: "Kraft Brown"
@@ -204,7 +204,7 @@ export const products = [
         category: "Pizza Boxes",
         price: 500,
         description: "This packaging is made from e-flute carton 3 ply and ideal for catering and the event industry.",
-        imageUrl: "/5003.webp",
+        imageUrl: "/images/5003.webp",
         rating: 4.3,
         stock: 3500,
         colour: "Kraft Brown"
@@ -215,7 +215,7 @@ export const products = [
         category: "Pizza Boxes",
         price: 550,
         description: "The box made from e-flute carton 3 ply can be easily torn (tear off), sturdy, strong, food can comfortably be eaten directly from the box.",
-        imageUrl: "/5004.webp",
+        imageUrl: "/images/5004.webp",
         rating: 4.3,
         stock: 1200,
         colour: "Kraft Brown"
