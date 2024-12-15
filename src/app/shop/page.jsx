@@ -17,7 +17,7 @@ export default function Shop() {
               <Link className={style.mask} href={`/shop/${product.name.replaceAll(' ','-')}`}>
                 <h3 className={style.productName}>{product.name}</h3>
               </Link>
-              <p>{`Ratings: ${product.rating}`}</p>
+              <p>Ratings: {product.rating}</p>
               <div className={style.productPriceBlock}>
                 <h2 className={style.productPrice}> &#8358; {product.price}</h2>
               </div>

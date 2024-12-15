@@ -178,7 +178,7 @@ export const products = [
       },
       {
         id: 5001,
-        name: "8″ Pizza Pack",
+        name: "8 Inches Pizza Pack",
         category: "Pizza Boxes",
         price: 400,
         description: "This packaging is aimed at take-away outlets, petrol stations, cafeterias, markets.  It is also ideal for catering and the event industry.",
@@ -189,7 +189,7 @@ export const products = [
       },
       {
         id: 5002,
-        name: "10″ Pizza Pack",
+        name: "10 Inches Pizza Pack",
         category: "Pizza Boxes",
         price: 400,
         description: "This packaging is ideal for catering and the event industry.",
@@ -200,7 +200,7 @@ export const products = [
       },
       {
         id: 5003,
-        name: "12″ Pizza Pack",
+        name: "12 Inches Pizza Pack",
         category: "Pizza Boxes",
         price: 500,
         description: "This packaging is made from e-flute carton 3 ply and ideal for catering and the event industry.",
@@ -211,7 +211,7 @@ export const products = [
       },
       {
         id: 5004,
-        name: "14″ Pizza Pack",
+        name: "14 Inches Pizza Pack",
         category: "Pizza Boxes",
         price: 550,
         description: "The box made from e-flute carton 3 ply can be easily torn (tear off), sturdy, strong, food can comfortably be eaten directly from the box.",
