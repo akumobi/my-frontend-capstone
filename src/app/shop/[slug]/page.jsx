@@ -56,7 +56,7 @@ export default function ProductsPage({params}) {
                         
                     </div>
                     <div className={style.priceWrapper}>
-                        <h3 className={style.singleProductPrice}>&#8358;{productDetails.price}</h3>
+                        <h3 className={style.singleProductPrice}>&#8358;{productDetails.price.toLocaleString()}</h3>
                     </div>
                     <div>
                         <p className={style.paraText}>{productDetails.description}</p>

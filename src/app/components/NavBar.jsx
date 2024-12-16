@@ -13,6 +13,7 @@ import { SidebarContext } from '../providers';
 export default function NavBar() {
     const {cart} = useContext(SidebarContext)
     const {cartOpen} = useContext(SidebarContext)
+    
   return (
     <div>
         <div className={style1.headerWrapper}>

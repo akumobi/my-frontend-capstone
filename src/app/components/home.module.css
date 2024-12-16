@@ -1,0 +1,220 @@
+.pageWrapper {
+    z-index: 100;
+    overflow: hidden;
+}
+
+.heroSection {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.container {
+    z-index: 2;
+    background-color: #0000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    position: relative;
+}
+
+.heroSlider {
+    background-color: #2b38d1;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.wSliderMask {
+    z-index: 1;
+    white-space: nowrap;
+    height: 100%;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.wSlide {
+    vertical-align: top;
+    white-space: normal;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.heroBlock {
+    grid-column-gap: 60px;
+    grid-row-gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.imageWrapper {
+    width: 50%;
+    position: static;
+}
+
+.heroImage {
+    max-width: 550px;
+    max-height: 420px;
+}
+
+.heroBgTopLeft {
+    z-index: -1;
+    object-fit: cover;
+    max-width: 50%;
+    height: 100%;
+    max-height: 600px;
+    position: absolute;
+    inset: 0% auto auto 0%;
+}
+
+.heroContents {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    display: flex;
+}
+
+.heroTitle {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 650px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.heroParagraph {
+    color: #e7eaee;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 750px;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.primaryButton {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    border: 1px solid #dd3842;
+    background-color: #dd3842;
+    color: #fff;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    transition: color 1s ease-out, background-color .5s cubic-bezier(.25, .46, .45, .94);
+    display: flex;
+    position: relative;
+}
+
+.primaryButtonHover:hover {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    border: 1px solid #dd3842;
+    background-color: #fff;
+    color: #dd3842;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    transition: color 1s ease-out, background-color .5s cubic-bezier(.25, .46, .45, .94);
+    display: flex;
+    position: relative;
+}
+
+.buttonTextWrapper {
+    white-space: nowrap;
+    height: 24px;
+    overflow: hidden;
+}
+
+.section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+._3ColumnGrid {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: 1fr;
+    width: 100%;
+    display: grid;
+}
+
+.featureCard {
+    grid-column-gap: 17px;
+    grid-row-gap: 17px;
+    border: 1px solid #e7eaee;
+    border-radius: 4px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 30px 35px 35px 15px;
+    transition: background-color .4s;
+    display: flex;
+}
+
+._75pxSvg {
+    max-width: 75px;
+}
+
+._10pxGap {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.wLayoutVflex {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
+
+._20pxBoldTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    transition: color .3s;
+}
+
+._16pxParaText {
+    color: #5c728e;
+    max-width: 750px;
+    margin-bottom: 0;
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}

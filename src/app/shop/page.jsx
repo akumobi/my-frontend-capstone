@@ -19,7 +19,7 @@ export default function Shop() {
               </Link>
               <p>Ratings: {product.rating}</p>
               <div className={style.productPriceBlock}>
-                <h2 className={style.productPrice}> &#8358; {product.price}</h2>
+                <h2 className={style.productPrice}> &#8358; {product.price.toLocaleString()}</h2>
               </div>
               <AddToCartButton/>
             </div>
