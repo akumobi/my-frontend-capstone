@@ -39,7 +39,7 @@ export default function Footer() {
                         <Link className={style2.wNavBrand} href={'/'}>
                             <Image src={'/images/Logo.webp'} alt='Pack Hub Logo' width={100} height={100}/>
                         </Link>
-                        <p className={style2.footerParagraph}>Pack Hub is Nigeria's foremost indigenous packaging company, providing quality packaging products and ensuring a stress-free shopping experience of eco-friendly packaging.</p>
+                        <p className={style2.footerParagraph}>Pack Hub is Nigeria foremost indigenous packaging company, providing quality packaging products and ensuring a stress-free shopping experience of eco-friendly packaging.</p>
                         <div className={style2.socialShareIconContainer}>
                             <Link href="https://www.instagram.com/akumobikingsley/" target="_blank" className={style2.footerSocialIcon}><FaInstagram /></Link>
                             <Link href="https://www.facebook.com/akumobikingsley/" target="_blank" className={style2.footerSocialIcon}><FaFacebookF />
