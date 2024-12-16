@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Lottie from 'lottie-react';
-import notFoundAnimation from '../app/not-found.json';
+import notFoundAnimation from './not-found.json';
 
 export default function NotFound() {
     return (
