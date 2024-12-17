@@ -9,12 +9,8 @@ export default function NotFound() {
         <div style={styles.container}>
             <Lottie animationData={notFoundAnimation} loop style={styles.animation} />
             <h1 style={styles.heading}>Oops! Page Not Found</h1>
-            <p style={styles.text}>
-                The page you’re looking for doesn’t exist. Let’s get you back on track.
-            </p>
-            <button style={styles.button} onClick={() => window.location.href = '/'}>
-                Go Home
-            </button>
+            <p style={styles.text}>The page you’re looking for doesn’t exist. Let’s get you back on track.</p>
+            <button style={styles.button} onClick={() => window.location.href = '/'}>Go Home</button>
         </div>
     );
 }

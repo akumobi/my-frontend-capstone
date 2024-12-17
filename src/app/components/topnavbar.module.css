@@ -93,20 +93,22 @@
     padding: 0 45px;
     font-family: Material Icons, sans-serif;
     line-height: 16px;
+    text-transform: capitalize;
     position: absolute;
     inset: 0% 0 0% auto;
 }
 
-.wButton {
+.wButton:hover {
     color: #fff;
-    line-height: inherit;
-    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-transform: capitalize;
+    padding: 0 45px;
+    font-family: Material Icons, sans-serif;
+    line-height: 16px;
+    position: absolute;
+    inset: 0% 0 0% auto;
     background-color: #3898ec;
-    border: 0;
-    border-radius: 0;
-    padding: 9px 15px;
-    text-decoration: none;
-    display: inline-block;
 }
 
 .ecommerceIcons {
